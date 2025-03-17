@@ -20,7 +20,7 @@ For reproducibility, the following files are made available:
 ## Data files
 
 #### Willapa_chum_input.csv
-This file contains the data used to fit a hierarchical integrated population model (IPM) to three index population of chum salmon (*Oncorhynchus keta*) in Willapa Bay. The following columns are included:
+This file contains the data used to fit a hierarchical integrated population model (IPM) to three index populations of chum salmon (*Oncorhynchus keta*) in Willapa Bay. The following columns are included:
 
 - **pop**: unique population identifier
 - **watershed**: name of the index reach watershed
@@ -69,7 +69,7 @@ This file contains data representing two hypothetical future forest management s
 ## R script files
 
 #### fit_plot_salmonIPM.R
-Code for fitting integrated population models using `salmonIPM` and plotting the results.
+Code for fitting integrated population models using [salmonIPM](https://github.com/ebuhle/salmonIPM) and plotting the results.
 
 #### func_PQE.R
 Functions for calculating probabilities of quasi-extinction (PQE) from future population projections.
